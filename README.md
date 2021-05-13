@@ -6,3 +6,5 @@ In this job, I construct a MySQL database contains multiple possible variables r
 The csv files in ./data is the data exported from the MySQL database, you could just run the python file ./save_data.py to export data from MySQL to csv files. Just remember to revise the database address in ./config.py
 
 The python file corr.py is used to calculate the correlations and make a regression between variables and the return of stock index you choose. The PCA.py and PLS.py implement the functions of constructing factors by using PCA or PLS methods with the variables you choose in the database. Just change the value of list variable X to the emotion variables you choose in the python files.
+
+PLS5.png & PCA5.png are the outcome examples of the constructed factors by using PLS and PCA methods.
